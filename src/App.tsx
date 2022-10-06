@@ -1,10 +1,14 @@
+import { ActiveUsersList } from "./singleResponsibility/finish";
+import UserList from "./singleResponsibility/start";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h2>Single responsibility - start</h2>
+      <UserList />
+      <h2>Single responsibility - finish</h2>
+      <ActiveUsersList />
     </div>
   );
 }
