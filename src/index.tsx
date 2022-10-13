@@ -9,7 +9,6 @@ ReactDOM.render(
   <StrictMode>
     <>
     <App />
- 
     </>
   </StrictMode>
   ,
